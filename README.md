@@ -4,7 +4,7 @@ The script is easily configurable. You can add jobs, your own desktop icon, supp
 
 It comes with support for vRP, ESX and QBCore.
 
-Showcase: https://youtu.be/diafRiTq-vA
+Showcase: https://youtu.be/Hr3uS4wA0rQ
 
 If you need support, you can join our Discord: https://discord.gg/Mpx8HzJ9h9
 
