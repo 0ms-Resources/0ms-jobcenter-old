@@ -23,3 +23,14 @@ RegisterNetEvent('tama-jobcenter:givejob:server', function(job)
   Config.Notify(Config.Strings["new_job"]["title"],
       Config.Strings["new_job"]["description"]:gsub("{job}", Config.Jobs[job].label), "success", src)
 end)
+
+RegisterNetEvent("onResourceStart", function(resName)
+  if resName ~= GetCurrentResourceName() or GetCurrentResourceName() == "tama-jobcenter" then
+    return
+  end
+
+  for i = 0, 10 do
+    print("^1This script has to be named \"tama-jobcenter\" in order for it to work properly^0")
+    Wait(100)
+  end
+end)
